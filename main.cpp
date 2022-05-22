@@ -534,7 +534,6 @@ int main( int argc, char* args[] )
             if (real_imp_time < time_one_frame)
             {
                 int delay_time = time_one_frame - real_imp_time;
-                SDL_Delay(delay_time);
                 if (delay_time >= 0)
                 {
                     SDL_Delay(delay_time);
