@@ -26,7 +26,7 @@ static Mix_Chunk* g_money_sound;
 static Mix_Music *g_background_music;
 // Screen
 
-const int FRAME_PER_SECOND = 50; // fps
+const int FRAME_PER_SECOND = 28; // fps
 const int SCREEN_WIDTH = 1280;
 const int SCREEN_HEIGHT = 640;
 const int SCREEN_BPP = 32;
