@@ -37,7 +37,7 @@ Sau khi hoàn thành dự án game cuối kì này, em học được rất nhi�
  
 **- Điều tâm đắc:**
  
-Phát triển thành công logic về xảy ra va chạm cũng như tự xây dựng được menu trò chơi.
+Phát triển thành công logic về xảy ra va chạm cũng như tự xây dựng được menu trò chơi, chức năng replay.
  
 **- Các hướng phát triển trong tương lai:**
  
