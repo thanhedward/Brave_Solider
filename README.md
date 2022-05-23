@@ -45,3 +45,4 @@ Phát triển thành công logic về xảy ra va chạm cũng như tự xây d�
 - Xây dựng menu đẹp hơn, thêm các chức năng pause/resume game.
 - Xây dựng thêm Boss Object có hiển thị thanh máu bên trên.
 - Xử lí thêm các hướng đạn bắn và thêm các item phụ trợ cũng như đa dạng hơn.
+- Xử lí AI quái tự chạy về phía người khi lại gần.
