@@ -8,7 +8,10 @@ Project này mình làm về game Brave Solider phỏng theo game [Contra](https
 - Giải nén file zip vừa mới tải sau đó vào đường dẫn BraveSolider/Lession2.exe để chạy trò chơi.
 
 ### 2. Mô tả chung:
-Game có cách chơi đơn giản. Hạ quái để và ăn tiền để cộng thêm điểm. Đi hết map sẽ chiến thắng. Sử dụng phím 'M" để hướng đạn và nhấn chuột để bắn. Dùng các phím mũi tên lên xuống để di chuyển.
+- Điều khiển nhân vật đi đến cuối map bản đồ.
+- Di chuyển khéo léo để tránh đạn, đồng thời hạ gục quái vật để ghi điểm.
+- Nhặt đồng xu cũng giúp tăng thêm điểm
+- Linh hoạt thay đổi hướng đạn để bắn dễ dàng hơn
  
 ### 3. Các chức năng:
 > Video minh họa: 
@@ -21,15 +24,17 @@ Game có cách chơi đơn giản. Hạ quái để và ăn tiền để cộng 
 
  
 ### 4. Các kĩ thuật sử dụng:
-- Thư viện đồ họa SDL2: Sử dụng hiển thị ảnh, chữ, phát âm thanh..
+- Thư viện đồ họa SDL2: Sử dụng hiển thị ảnh, chữ, phát âm thanh...
+- Kĩ thuật di chuyển map bản đồ theo nhân vật.
 - Mảng 2 chiều: dùng xây dựng map bản đồ.
 - Fps: Đặt fps cố định là 28 khung hình trên giây để cho nhân vật di chuyển một cách ổn định, dễ nhìn.
 - Kĩ thuật tile map để xay dựng bản đồ.
 - Đọc, in dữ liệu ra file: dùng để lưu trữ dữ liệu thành tích, tránh bị mất mỗi lần chạy game.
 - Cấu trúc, lớp..
-- Kĩ thuật hướng đối tượng.
+- Kĩ thuật lập trình hướng đối tượng.
 - Xử lí va chạm.
 - Chia code thành các file.
+- Có thể chơi lại nhiều lần
 - Photoshop: Cắt ghép ảnh, tách nhân vật từ ảnh game gốc cũng như chỉnh sửa các ảnh trên mạng theo ý thích để đưa vào game.
 
 ### 5. Kết luận:
