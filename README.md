@@ -8,7 +8,7 @@ Project này mình làm về game Brave Solider phỏng theo game [Contra](https
 - Giải nén file zip vừa mới tải sau đó vào đường dẫn BraveSolider/Lession2.exe để chạy trò chơi.
 
 ### 2. Mô tả chung:
-Game có cách chơi đơn giản. Hạ quái để và ăn tiền để cộng thêm điểm. Đi hết map sẽ chiến thắng. Sử dụng phím 'M" để thay đổi đạn và nhấn chuột để bắn. Dùng các phím mũi tên lên xuống để di chuyển.
+Game có cách chơi đơn giản. Hạ quái để và ăn tiền để cộng thêm điểm. Đi hết map sẽ chiến thắng. Sử dụng phím 'M" để hướng đạn và nhấn chuột để bắn. Dùng các phím mũi tên lên xuống để di chuyển.
  
 ### 3. Các chức năng:
 > Video minh họa: 
