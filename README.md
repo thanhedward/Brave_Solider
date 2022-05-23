@@ -23,7 +23,7 @@ Game có cách chơi đơn giản. Hạ quái để và ăn tiền để cộng 
 ### 4. Các kĩ thuật sử dụng:
 - Thư viện đồ họa SDL2: Sử dụng hiển thị ảnh, chữ, phát âm thanh..
 - Mảng 2 chiều: dùng xây dựng map bản đồ.
-- Fps: Đặt fps cố định là 28 khung hình trên giây để cho gà con di chuyển một cách ổn định, dễ nhìn.
+- Fps: Đặt fps cố định là 28 khung hình trên giây để cho nhân vật di chuyển một cách ổn định, dễ nhìn.
 - Kĩ thuật tile map để xay dựng bản đồ.
 - Đọc, in dữ liệu ra file: dùng để lưu trữ dữ liệu thành tích, tránh bị mất mỗi lần chạy game.
 - Cấu trúc, lớp..
