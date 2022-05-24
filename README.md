@@ -1,5 +1,7 @@
 # Brave_Solider
 _Trịnh Đức Thành - 21020792_
+
+![HeadA](https://github.com/thanhedward/Brave_Solider/blob/main/assets/image/intro_image.png)
  
 Project này mình làm về game Brave Solider phỏng theo game [Contra](https://gamevui.vn/contra/game) sử dụng thư viện đồ họa [SDL2](https://www.libsdl.org/) và ngôn ngữ [C++](https://vi.wikipedia.org/wiki/C%2B%2B).
 
