@@ -1,5 +1,5 @@
 # Brave_Solider
-_Trịnh Đức Thành - 21020792_
+## _Trịnh Đức Thành - 21020792_
 
 ![HeadA](https://github.com/thanhedward/Brave_Solider/blob/main/assets/image/intro_image.png)
  
