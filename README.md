@@ -35,7 +35,7 @@ Project này mình làm về game Brave Solider phỏng theo game [Contra](https
 - Cấu trúc, lớp..
 - Kĩ thuật lập trình hướng đối tượng.
 - Xử lí va chạm.
-- Chia code thành các file.
+- Chia code thành các file: `CommonFuction`(hàm xử lí chung, tạo menu), `baseObject`(hàm tạo đối tượng cơ bản, load ảnh và hiển thị tọa độ), `MainObject` (Hàm xử lí đối tượng nhân vật), `game_map`(hàm xử lí map bản đồ), `ImpTimer`(hàm xử lí vấn đề fps), `ThreatObject`(hàm xử lí đối tượng quái), `BulletObject` (hàm xử lí vấn đề đạn bắn), `PlayerPower`(quản lí trị số mạng của nhân vật), `TextObject` (Hàm xử lí vấn đề text như mark, time hiển thị và các button trong menu), `Geometric` (hàm vẽ hình học để hiển thị điểm, mạng...), `Explosion` (hàm xử lí hiệu ứng vụ nổ) và `main` (hàm chứa gameloop).
 - Có thể chơi lại nhiều lần
 - Photoshop: Cắt ghép ảnh, tách nhân vật từ ảnh game gốc cũng như chỉnh sửa các ảnh trên mạng theo ý thích để đưa vào game.
 
