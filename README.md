@@ -5,10 +5,10 @@ _Trịnh Đức Thành - 21020792_
  
 Project này mình làm về game Brave Solider phỏng theo game [Contra](https://gamevui.vn/contra/game) sử dụng thư viện đồ họa [SDL2](https://www.libsdl.org/) và ngôn ngữ [C++](https://vi.wikipedia.org/wiki/C%2B%2B).
 
-### Hướng dẫn cài đặt:
+### 1. Hướng dẫn cài đặt:
 - Bước 1: Cài đặt `CodeBlock`.
 - Bước 2: Cài đặt `SDL2` vào `CodeBlock` theo [Hướng dẫn](https://www.youtube.com/watch?v=kxi0TMXEG3g).
-- Bước 3: Tải project game và mở file `Lession2.cbp` bằng `CodeBlock`.
+- Bước 3: Tải project game vào BraveSolider\Lession2.cbp bằng `CodeBlock`.
 - Bước 4: Nhấn `F9` (Build and Run) và tận hưởng trò chơi.
 
 ### 2. Mô tả chung:
