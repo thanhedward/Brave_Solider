@@ -17,11 +17,11 @@ bool BulletObject::LoadImgBullet(SDL_Renderer* des)
     bool ret = false;
     if (bullet_type_ == LASER_BULLET)
     {
-        ret = LoadImg("../assets/image/laser_bullet.png", des);
+        ret = LoadImg("./assets/image/laser_bullet.png", des);
     }
     else
     {
-        ret = LoadImg("../assets/image/sphere_bullet.png", des);
+        ret = LoadImg("./assets/image/sphere_bullet.png", des);
     }
     return ret;
 }

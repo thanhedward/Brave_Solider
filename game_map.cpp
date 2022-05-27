@@ -49,7 +49,7 @@ void GameMap::LoadTiles(SDL_Renderer* screen)
 //    FILE* fp = NULL;
     for (int i=0; i< MAX_TILES; i++)
     {
-        string path = "../map/" + to_string(i) + ".png";
+        string path = "./map/" + to_string(i) + ".png";
 
         // check the path
         ifstream ifs(path.c_str());

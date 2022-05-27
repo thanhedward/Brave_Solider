@@ -603,19 +603,19 @@ void MainObject::UpdateImagePlayer(SDL_Renderer* des)
     {
         if (status_ == WALK_LEFT_)
         {
-            LoadImg("../assets/image/player_left.png", des);
+            LoadImg("./assets/image/player_left.png", des);
         }
         else if (status_ == WALK_RIGHT_)
         {
-            LoadImg("../assets/image/player_right.png", des);
+            LoadImg("./assets/image/player_right.png", des);
         }
         else if (status_ == WALK_DOWN_RIGHT)
         {
-            LoadImg("../assets/image/player_right_down.png", des);
+            LoadImg("./assets/image/player_right_down.png", des);
         }
         else if (status_ == WALK_DOWN_LEFT)
         {
-            LoadImg("../assets/image/player_left_down.png", des);
+            LoadImg("./assets/image/player_left_down.png", des);
         }
 
     }
@@ -623,19 +623,19 @@ void MainObject::UpdateImagePlayer(SDL_Renderer* des)
     {
         if (status_ == WALK_LEFT_)
         {
-            LoadImg("../assets/image/jum_left.png", des);
+            LoadImg("./assets/image/jum_left.png", des);
         }
         else if (status_ == WALK_RIGHT_)
         {
-            LoadImg("../assets/image/jum_right.png", des);
+            LoadImg("./assets/image/jum_right.png", des);
         }
         else if (status_ == WALK_DOWN_LEFT)
         {
-            LoadImg("../assets/image/jum_left_down.png", des);
+            LoadImg("./assets/image/jum_left_down.png", des);
         }
         else if (status_ == WALK_DOWN_RIGHT)
         {
-            LoadImg("../assets/image/jum_right_down.png", des);
+            LoadImg("./assets/image/jum_right_down.png", des);
         }
     }
 }
