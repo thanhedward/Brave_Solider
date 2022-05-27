@@ -8,7 +8,7 @@ Project này mình làm về game Brave Solider phỏng theo game [Contra](https
 ### 1. Hướng dẫn cài đặt:
 - Bước 1: Cài đặt `CodeBlock`.
 - Bước 2: Cài đặt `SDL2` vào `CodeBlock` theo [Hướng dẫn](https://www.youtube.com/watch?v=kxi0TMXEG3g).
-- Bước 3: Tải project game vào BraveSolider\Lession2.cbp bằng `CodeBlock`.
+- Bước 3: Tải project game vào BraveSolider\Lession2.cbp bằng `CodeBlock`.(Nếu bạn tải file zip về thì cần giải nén để chạy chương trình).
 - Bước 4: Nhấn `F9` (Build and Run) và tận hưởng trò chơi.
 
 ### 2. Mô tả chung:
