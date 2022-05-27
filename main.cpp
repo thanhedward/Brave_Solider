@@ -20,12 +20,12 @@ TTF_Font* font_menu_over;
 int recordBestScore(int mark)
 {
     ifstream filein;
-    filein.open("./record.txt", ios_base::in);
+    filein.open("../record.txt", ios_base::in);
     int previousPoint = 0;
     filein >> previousPoint;
     if (mark > previousPoint)
     {
-        ofstream ofs ("./record.txt", std::ofstream::out);
+        ofstream ofs ("../record.txt", std::ofstream::out);
         ofs << mark;
         ofs.close();
     }
@@ -67,9 +67,9 @@ bool InitData()
         success = false;
     }
 
-    font_time = TTF_OpenFont("./game_resource/dlxfont_.ttf", 15);
-    font_menu = TTF_OpenFont("./game_resource/000BattleDamaged-Regular.ttf", 42);
-    font_menu_over = TTF_OpenFont("./game_resource/Rokkitt-VariableFont_wght.ttf", 35);
+    font_time = TTF_OpenFont("../game_resource/dlxfont_.ttf", 15);
+    font_menu = TTF_OpenFont("../game_resource/000BattleDamaged-Regular.ttf", 42);
+    font_menu_over = TTF_OpenFont("../game_resource/Rokkitt-VariableFont_wght.ttf", 35);
     if (font_time == NULL)
     {
         success = false;
@@ -81,12 +81,12 @@ bool InitData()
     }
 
     // Read file wav audio
-    g_sound_bullet[0] = Mix_LoadWAV("./game_resource/sphere_bullet.wav");
-    g_sound_bullet[1] = Mix_LoadWAV("./game_resource/laser_bullet.wav");
-    g_sound_exp[0] = Mix_LoadWAV("./game_resource/explosion1.wav");
-    g_money_sound = Mix_LoadWAV("./game_resource/beep.wav");
+    g_sound_bullet[0] = Mix_LoadWAV("../game_resource/sphere_bullet.wav");
+    g_sound_bullet[1] = Mix_LoadWAV("../game_resource/laser_bullet.wav");
+    g_sound_exp[0] = Mix_LoadWAV("../game_resource/explosion1.wav");
+    g_money_sound = Mix_LoadWAV("../game_resource/beep.wav");
 
-    g_background_music = Mix_LoadMUS("./game_resource/background_music.wav");
+    g_background_music = Mix_LoadMUS("../game_resource/background_music.wav");
 
     if (g_sound_exp[0] == NULL || g_sound_bullet[0] == NULL || g_sound_bullet[1] == NULL || g_money_sound == NULL)
     {
@@ -98,7 +98,7 @@ bool InitData()
 
 bool LoadBackGround()
 {
-	bool ret = g_background.LoadImg("./assets/image/background.png", g_screen);
+	bool ret = g_background.LoadImg("../assets/image/background.png", g_screen);
 	if (ret == false)
 	{
 		return false;
@@ -145,7 +145,7 @@ std::vector<ThreatsObject*> MakeThreatList()
         ThreatsObject* p_threat = (dynamic_threats + i);
         if (p_threat != NULL)
         {
-            p_threat->LoadImg("./assets/image/threat_left.png", g_screen);
+            p_threat->LoadImg("../assets/image/threat_left.png", g_screen);
             p_threat->set_clips();
             p_threat->set_type_move(ThreatsObject::MOVE_IN_SPACE_THREAT);
             p_threat->set_x_pos(500 + i*750);
@@ -167,7 +167,7 @@ std::vector<ThreatsObject*> MakeThreatList()
         ThreatsObject* p_threat = (threats_objs + i);
         if (p_threat != NULL)
         {
-            p_threat->LoadImg("./assets/image/threat_level.png", g_screen);
+            p_threat->LoadImg("../assets/image/threat_level.png", g_screen);
             p_threat->set_clips();
             if (i < 5)
             {
@@ -198,7 +198,7 @@ int main( int argc, char* args[] )
         return 0;
     }
 
-    TTF_Font* font = TTF_OpenFont("./game_resource/dlxfont_.ttf", 18);
+    TTF_Font* font = TTF_OpenFont("../game_resource/dlxfont_.ttf", 18);
     if (font == NULL)
     {
         cout << "font is error";
@@ -223,12 +223,12 @@ int main( int argc, char* args[] )
 
 
         GameMap game_map;
-        game_map.LoadMap("./map/map01.txt");
+        game_map.LoadMap("../map/map01.txt");
         game_map.LoadTiles(g_screen);
 
 
         MainObject p_player;
-        p_player.LoadImg("./assets/image/player_right.png", g_screen);
+        p_player.LoadImg("../assets/image/player_right.png", g_screen);
         p_player.set_clips();
 
         PlayerPower player_power;
@@ -249,7 +249,7 @@ int main( int argc, char* args[] )
         int num_die = 0;
 
         ExplosionObject exp_threat;
-        bool tRet = exp_threat.LoadImg("./assets/image/exp3.png", g_screen);
+        bool tRet = exp_threat.LoadImg("../assets/image/exp3.png", g_screen);
         if (!tRet) return -1;
         exp_threat.set_clip();
         int frame_exp_width = exp_threat.get_frame_width();

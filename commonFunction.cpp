@@ -91,7 +91,7 @@ bool SDLCommonFunc::CheckCollision(const SDL_Rect& object1, const SDL_Rect& obje
 int SDLCommonFunc::ShowMenu(SDL_Renderer* screen, TTF_Font* font)
 {
     BaseObject g_menu;
-    bool ret = g_menu.LoadImg("./assets/image/start.png", screen);
+    bool ret = g_menu.LoadImg("../assets/image/start.png", screen);
     if (ret == false)
     {
         return 1;
@@ -202,7 +202,7 @@ int SDLCommonFunc::ShowMenu(SDL_Renderer* screen, TTF_Font* font)
 int SDLCommonFunc::ShowMenuOver(SDL_Renderer* screen, TTF_Font* font, TTF_Font* font_mark, int total_mark, int current_mark)
 {
     BaseObject g_menu_over;
-    bool ret = g_menu_over.LoadImg("./assets/image/gameover.jpg", screen);
+    bool ret = g_menu_over.LoadImg("../assets/image/gameover.jpg", screen);
     if (ret == false)
     {
         return 1;
